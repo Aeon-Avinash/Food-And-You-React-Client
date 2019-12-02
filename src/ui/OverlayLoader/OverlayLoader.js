@@ -8,7 +8,6 @@ const OverlayLoader = ({ active, text, children }) => {
     <LoadingOverlay
       active={active}
       spinner={<MDSpinner size={50} />}
-      // spinner
       text={text}
     >
       {children}
